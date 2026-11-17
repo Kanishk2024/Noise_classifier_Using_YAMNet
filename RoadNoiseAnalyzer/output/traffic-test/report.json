@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "input_file": "samples\\arunangshubanerjee-suburban-alley-traffic-ambience-359577.wav",
+    "analyzed_at": "2026-11-18T00:06:31",
+    "tool_version": "1.0.0",
+    "top_k": 10,
+    "threshold": 0.15
+  },
+  "noise_summary": {
+    "laeq_dba": 58.41,
+    "lafmax_dba": 67.05,
+    "lamin_dba": 49.21,
+    "l10_dba": 62.04,
+    "l50_dba": 56.73,
+    "l90_dba": 52.48,
+    "duration_sec": 23.76,
+    "calibrated": false,
+    "calibration_offset_db": 94.0,
+    "indicative_level": "n/a (uncalibrated - values are relative)"
+  },
+  "time_series": [
+    {
+      "t": 0,
+      "dba": 62.71
+    },
+    {
+      "t": 1,
+      "dba": 60.77
+    },
+    {
+      "t": 2,
+      "dba": 56.85
+    },
+    {
+      "t": 3,
+      "dba": 53.36
+    },
+    {
+      "t": 4,
+      "dba": 57.91
+    },
+    {
+      "t": 5,
+      "dba": 54.27
+    },
+    {
+      "t": 6,
+      "dba": 55.17
+    },
+    {
+      "t": 7,
+      "dba": 55.88
+    },
+    {
+      "t": 8,
+      "dba": 50.87
+    },
+    {
+      "t": 9,
+      "dba": 53.78
+    },
+    {
+      "t": 10,
+      "dba": 51.03
+    },
+    {
+      "t": 11,
+      "dba": 55.09
+    },
+    {
+      "t": 12,
+      "dba": 57.0
+    },
+    {
+      "t": 13,
+      "dba": 62.59
+    },
+    {
+      "t": 14,
+      "dba": 64.53
+    },
+    {
+      "t": 15,
+      "dba": 55.8
+    },
+    {
+      "t": 16,
+      "dba": 52.1
+    },
+    {
+      "t": 17,
+      "dba": 57.61
+    },
+    {
+      "t": 18,
+      "dba": 60.49
+    },
+    {
+      "t": 19,
+      "dba": 59.57
+    },
+    {
+      "t": 20,
+      "dba": 57.62
+    },
+    {
+      "t": 21,
+      "dba": 55.81
+    },
+    {
+      "t": 22,
+      "dba": 56.61
+    },
+    {
+      "t": 23,
+      "dba": 58.94
+    }
+  ],
+  "sound_categories": [
+    {
+      "name": "Vehicle",
+      "mean_score": 0.3317,
+      "max_score": 0.9052,
+      "time_pct": 0.75
+    },
+    {
+      "name": "Motor vehicle (road)",
+      "mean_score": 0.1069,
+      "max_score": 0.2306,
+      "time_pct": 0.2083
+    },
+    {
+      "name": "Outside, urban or manmade",
+      "mean_score": 0.0904,
+      "max_score": 0.1971,
+      "time_pct": 0.0833
+    },
+    {
+      "name": "Outside, rural or natural",
+      "mean_score": 0.0844,
+      "max_score": 0.2146,
+      "time_pct": 0.2083
+    },
+    {
+      "name": "Car",
+      "mean_score": 0.0663,
+      "max_score": 0.1575,
+      "time_pct": 0.0417
+    },
+    {
+      "name": "Truck",
+      "mean_score": 0.0544,
+      "max_score": 0.2122,
+      "time_pct": 0.0417
+    },
+    {
+      "name": "Traffic noise, roadway noise",
+      "mean_score": 0.0404,
+      "max_score": 0.2941,
+      "time_pct": 0.0417
+    },
+    {
+      "name": "Animal",
+      "mean_score": 0.0351,
+      "max_score": 0.2659,
+      "time_pct": 0.0417
+    },
+    {
+      "name": "Bus",
+      "mean_score": 0.0332,
+      "max_score": 0.1075,
+      "time_pct": 0.0
+    },
+    {
+      "name": "Motorcycle",
+      "mean_score": 0.0208,
+      "max_score": 0.3058,
+      "time_pct": 0.0417
+    }
+  ],
+  "grouped_summary": [
+    {
+      "group": "Vehicle",
+      "mean_score": 0.332,
+      "max_score": 0.9052,
+      "time_pct": 0.75,
+      "top_members": [
+        "Vehicle",
+        "Motor vehicle (road)",
+        "Car"
+      ]
+    },
+    {
+      "group": "Extra noise",
+      "mean_score": 0.1356,
+      "max_score": 0.2659,
+      "time_pct": 0.3333,
+      "top_members": [
+        "Outside, urban or manmade",
+        "Outside, rural or natural",
+        "Animal"
+      ]
+    },
+    {
+      "group": "Nature",
+      "mean_score": 0.0282,
+      "max_score": 0.143,
+      "time_pct": 0.0,
+      "top_members": [
+        "Wind",
+        "Bird",
+        "Wind noise (microphone)"
+      ]
+    },
+    {
+      "group": "Horn",
+      "mean_score": 0.0255,
+      "max_score": 0.29,
+      "time_pct": 0.0417,
+      "top_members": [
+        "Car alarm",
+        "Toot"
+      ]
+    },
+    {
+      "group": "Human",
+      "mean_score": 0.0113,
+      "max_score": 0.0434,
+      "time_pct": 0.0,
+      "top_members": [
+        "Speech"
+      ]
+    }
+  ],
+  "per_window": [
+    {
+      "t": 0.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.3085
+        },
+        {
+          "name": "Outside, rural or natural",
+          "score": 0.1769
+        }
+      ]
+    },
+    {
+      "t": 1.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.6922
+        },
+        {
+          "name": "Outside, rural or natural",
+          "score": 0.1731
+        }
+      ]
+    },
+    {
+      "t": 2.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.3409
+        }
+      ]
+    },
+    {
+      "t": 3.0,
+      "top": []
+    },
+    {
+      "t": 4.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.2102
+        }
+      ]
+    },
+    {
+      "t": 5.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.5595
+        }
+      ]
+    },
+    {
+      "t": 6.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.286
+        }
+      ]
+    },
+    {
+      "t": 7.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.2694
+        }
+      ]
+    },
+    {
+      "t": 8.0,
+      "top": []
+    },
+    {
+      "t": 9.0,
+      "top": [
+        {
+          "name": "Animal",
+          "score": 0.2659
+        },
+        {
+          "name": "Outside, rural or natural",
+          "score": 0.2146
+        }
+      ]
+    },
+    {
+      "t": 10.0,
+      "top": [
+        {
+          "name": "Outside, rural or natural",
+          "score": 0.2095
+        },
+        {
+          "name": "Vehicle",
+          "score": 0.1926
+        }
+      ]
+    },
+    {
+      "t": 11.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.4091
+        }
+      ]
+    },
+    {
+      "t": 12.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.7374
+        },
+        {
+          "name": "Motorcycle",
+          "score": 0.3058
+        },
+        {
+          "name": "Motor vehicle (road)",
+          "score": 0.2191
+        }
+      ]
+    },
+    {
+      "t": 13.0,
+      "top": []
+    },
+    {
+      "t": 14.0,
+      "top": [
+        {
+          "name": "Car alarm",
+          "score": 0.29
+        },
+        {
+          "name": "Vehicle",
+          "score": 0.2711
+        }
+      ]
+    },
+    {
+      "t": 15.0,
+      "top": [
+        {
+          "name": "Outside, rural or natural",
+          "score": 0.1901
+        }
+      ]
+    },
+    {
+      "t": 16.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.2386
+        }
+      ]
+    },
+    {
+      "t": 17.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.3058
+        },
+        {
+          "name": "Traffic noise, roadway noise",
+          "score": 0.2941
+        },
+        {
+          "name": "Outside, urban or manmade",
+          "score": 0.1757
+        },
+        {
+          "name": "Motor vehicle (road)",
+          "score": 0.174
+        }
+      ]
+    },
+    {
+      "t": 18.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.3026
+        },
+        {
+          "name": "Motor vehicle (road)",
+          "score": 0.2306
+        },
+        {
+          "name": "Outside, urban or manmade",
+          "score": 0.1971
+        },
+        {
+          "name": "Car",
+          "score": 0.1575
+        }
+      ]
+    },
+    {
+      "t": 19.0,
+      "top": []
+    },
+    {
+      "t": 20.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.1988
+        }
+      ]
+    },
+    {
+      "t": 21.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.5608
+        },
+        {
+          "name": "Motor vehicle (road)",
+          "score": 0.1538
+        }
+      ]
+    },
+    {
+      "t": 22.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.9052
+        },
+        {
+          "name": "Truck",
+          "score": 0.2122
+        },
+        {
+          "name": "Motor vehicle (road)",
+          "score": 0.1803
+        }
+      ]
+    },
+    {
+      "t": 23.0,
+      "top": [
+        {
+          "name": "Vehicle",
+          "score": 0.6567
+        },
+        {
+          "name": "Motorboat, speedboat",
+          "score": 0.1754
+        },
+        {
+          "name": "Boat, Water vehicle",
+          "score": 0.1556
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Uncalibrated: dBA values are RELATIVE, not absolute sound pressure levels."
+  ]
+}

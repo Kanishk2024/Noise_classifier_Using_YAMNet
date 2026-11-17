@@ -1,0 +1,20 @@
+audio:
+  target_sr: 16000
+  channels: 1
+
+classification:
+  model_url: "https://tfhub.dev/google/yamnet/1"
+  class_map_url: "https://raw.githubusercontent.com/tensorflow/models/master/research/audioset/yamnet/yamnet_class_map.csv"
+  window_sec: 1.0
+  threshold: 0.15
+
+noise:
+  # Calibration offset in dB: dBA = (A-weighted level in dBFS) + calibration_db.
+  # Leave null if you have no calibrator -> values are RELATIVE, not absolute.
+  # To derive it from a calibrator recording (e.g. 94 dB @ 1 kHz) see calibration/README.md
+  # or run:  python main.py road.mp4 --calib-file calib.wav --calib-ref-db 94
+  calibration_db: null
+
+output:
+  plot: true
+  keep_wav: false

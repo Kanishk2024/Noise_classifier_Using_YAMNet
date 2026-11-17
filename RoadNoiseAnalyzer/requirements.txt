@@ -1,0 +1,18 @@
+tensorflow>=2.15.0
+tensorflow-hub>=0.16.0
+librosa>=0.10.1
+soundfile>=0.12.1
+numpy>=1.26.0
+scipy>=1.11.0
+pandas>=2.1.0
+matplotlib>=3.8.0
+pyyaml>=6.0
+setuptools>=75.1.0,<81
+ffmpeg-python>=0.2.0
+tqdm>=4.66.0
+streamlit>=1.32.0
+# NOTE: `soundlevelmeter` is intentionally NOT listed. On PyPI it installs a module
+# named `slm` with a different API (and v1.0+ needs Python >= 3.13). dBA is computed
+# in src/noise_level.py with an IEC 61672 A-weighting filter + Fast time weighting.
+# NOTE: setuptools must stay on a pre-81 line because TensorFlow 2.x still imports
+# pkg_resources; newer setuptools releases can break the analysis runtime.

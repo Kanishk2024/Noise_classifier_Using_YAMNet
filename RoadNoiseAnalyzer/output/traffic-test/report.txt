@@ -1,0 +1,39 @@
+==============================================================
+  ROAD NOISE ANALYSIS REPORT
+==============================================================
+File       : samples\arunangshubanerjee-suburban-alley-traffic-ambience-359577.wav
+Analysed   : 2026-11-18T00:06:31
+Duration   : 23.8 s
+Calibrated : NO - relative values only
+
+NOISE LEVELS
+--------------------------------------------------------------
+  LAeq   (average)        :    58.4 dBA (relative)
+  LAFmax (loudest, Fast)  :    67.0 dBA (relative)
+  LAmin  (quietest, Fast) :    49.2 dBA (relative)
+  L10 / L50 / L90         : 62.0 / 56.7 / 52.5
+  Indicative level        : n/a (uncalibrated - values are relative)
+
+SOUND GROUPS (mean score, % of time detected)
+--------------------------------------------------------------
+  Vehicle           33.2%   present  75.0% of time
+  Extra noise       13.6%   present  33.3% of time
+  Nature             2.8%   present   0.0% of time
+  Horn               2.5%   present   4.2% of time
+  Human              1.1%   present   0.0% of time
+
+TOP SOUND CATEGORIES
+--------------------------------------------------------------
+  Vehicle                             33.2%  (max  91%,  75% of time)
+  Motor vehicle (road)                10.7%  (max  23%,  21% of time)
+  Outside, urban or manmade            9.0%  (max  20%,   8% of time)
+  Outside, rural or natural            8.4%  (max  21%,  21% of time)
+  Car                                  6.6%  (max  16%,   4% of time)
+  Truck                                5.4%  (max  21%,   4% of time)
+  Traffic noise, roadway noise         4.0%  (max  29%,   4% of time)
+  Animal                               3.5%  (max  27%,   4% of time)
+  Bus                                  3.3%  (max  11%,   0% of time)
+  Motorcycle                           2.1%  (max  31%,   4% of time)
+
+! Uncalibrated: dBA values are RELATIVE, not absolute sound pressure levels.
+==============================================================
